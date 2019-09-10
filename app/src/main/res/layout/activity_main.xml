@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:srcCompat="@mipmap/abc" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/readIn"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:text="存入SD卡"
+            android:textSize="15sp"
+            android:layout_marginLeft="50dp"
+            android:background="@android:color/holo_orange_light"/>
+
+        <Button
+            android:id="@+id/readOut"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:text="读出SD卡"
+            android:textSize="15sp"
+            android:layout_marginLeft="80dp"
+            android:background="@android:color/holo_orange_light"
+           />
+    </LinearLayout>
+
+
+</LinearLayout>
